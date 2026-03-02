@@ -7,4 +7,7 @@ edition = "2024"
 azure_core = "0.32.0"
 azure_identity = "0.32.0"
 clap = { version = "4.5.60", features = ["derive"] }
+config = { version = "0.15.19", features = ["ini"] }
+home = "0.5.12"
 tokio = { version = "1.49.0", features = ["full"] }
+url = "2.5.8"
